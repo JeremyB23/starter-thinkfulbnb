@@ -130,6 +130,89 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+<<<<<<< HEAD
+  @media all and (min-width: 480px) {
+    header {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 15px;
+    }
+    
+    .logo {
+      font-size: 48px;
+      padding-left: 5px;
+    }
+  
+    /* -------  Search Form ------- */
+  
+    form {
+      align-items: center;
+      display: flex;
+      /* flex-wrap: wrap; */
+      justify-content: center;
+    }
+    
+    form button {
+      background-color: #FF385C;
+      border: none;
+      color: #fff;
+      font-size: 24px;
+      padding: 15px;
+    }
+    form div {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    form label {
+      padding-bottom: 15px;
+      font-weight: bold;
+    }
+  
+    .form-input {
+      padding-right: 15px;
+      justify-content: center;
+    }
+  
+    button {
+      justify-content: center;
+    }
+  
+    /* -------  Groups & Items------- */
+  
+    .group {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+  
+    .item input,
+    .item label,
+    .item select {
+      display: flex;
+      width: 100%;
+      flex-wrap:wrap;
+    }
+  
+    .item {
+      flex: 1;
+      margin: 15px;
+    }
+  
+    .item-double {
+      flex: 2;
+      margin: 15px;
+    }
+  
+    p {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+=======
 
 @media all and (min-width: 480px) {
   header {
